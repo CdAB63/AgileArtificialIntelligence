@@ -1,0 +1,4 @@
+operations
+backwardPropagateError: expectedOutputs
+
+	self outputLayer backwardPropagateError: expectedOutputs.

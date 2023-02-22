@@ -9,7 +9,9 @@
 		"weights",
 		"bias",
 		"learningRate",
-		"activationFunction"
+		"activationFunction",
+		"delta",
+		"output"
 	],
 	"name" : "Neuron",
 	"type" : "normal"

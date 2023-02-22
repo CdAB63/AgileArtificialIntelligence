@@ -4,4 +4,5 @@ feed: inputs
 			
 	| z |
 	z := (inputs asOrderedCollection with: self weights collect: [ :x :w | x * w ]) sum + bias.
-	^ self activationFunction eval: z
+	self output: (self activationFunction eval: z).
+	^ self output

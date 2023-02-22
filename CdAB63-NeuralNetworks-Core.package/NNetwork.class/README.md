@@ -1,0 +1,1 @@
+This class models a Neural Network (traditional, non convolutional)
