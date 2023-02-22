@@ -9,3 +9,7 @@ Public API and Key Messages
 - bias: set bias   
 - weights: return weights
 - weights: set weights
+- learningRate: get learningRate
+- learningRate: set learningRate
+- feed: process input
+- train desiredOutput: train neuron
