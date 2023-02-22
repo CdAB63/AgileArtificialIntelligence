@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "CdAB63 2/22/2023 10:06",
+	"super" : "ActivationFunction",
+	"category" : "CdAB63-NeuralNetworks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rate"
+	],
+	"name" : "LinearAF",
+	"type" : "normal"
+}

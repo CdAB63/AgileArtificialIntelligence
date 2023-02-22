@@ -8,7 +8,8 @@
 	"instvars" : [
 		"weights",
 		"bias",
-		"learningRate"
+		"learningRate",
+		"activationFunction"
 	],
 	"name" : "Neuron",
 	"type" : "normal"

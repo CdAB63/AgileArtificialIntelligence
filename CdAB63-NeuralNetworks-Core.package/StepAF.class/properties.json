@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "CdAB63 2/22/2023 09:51",
+	"super" : "ActivationFunction",
+	"category" : "CdAB63-NeuralNetworks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StepAF",
+	"type" : "normal"
+}

@@ -2,13 +2,13 @@ initialization
 train: inputs desiredOutput: desiredOutput
 	"train the neuron"
 	
-	| theError output newWeight |
+	| diff output delta |
 	
 	output := self feed: inputs.
-	theError := desiredOutput - output.
+	diff := desiredOutput - output.
+	delta := diff * (self activationFunction derivative: output).
 	
 	inputs withIndexDo: [ :anInput :index |
-		newWeight := (self weights at: index) + (self learningRate * theError * anInput).
-		self weights at: index put: newWeight ].
+		self weights at: index put: ((self weights at: index) + (self learningRate * delta * anInput)) ].
 	
-	bias := bias + (learningRate * theError)
+	self bias: self bias + (self learningRate * delta)

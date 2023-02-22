@@ -5,7 +5,7 @@ perceptronSimpleClassifier
 	
 	f := [ :x | (-2 * x) -3 ].
 	
-	p := Neuron weights: #(1 2) bias: -1  learningRate: 0.1.
+	p := Neuron weights: #(1 2) bias: -1  learningRate: 0.1 activationFunction: StepAF new.
 	r := Random seed: 42.
 	
 	500 timesRepeat: [ 

@@ -1,0 +1,1 @@
+Metaclass for activation functions

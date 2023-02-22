@@ -8,7 +8,7 @@ perceptronLearningRateExample
 	
 	0 to: 2000 by: 10 do: [ :nbOfTrained |
 		r := Random seed: 42.
-		p := Neuron weights: #(1 2) bias: -1 learningRate: 0.1.
+		p := Neuron weights: #(1 2) bias: -1 learningRate: 0.1 activationFunction: StepAF new.
 		
 		nbOfTrained timesRepeat: [ 
 			anX := (r nextInteger: 50) - 25.
