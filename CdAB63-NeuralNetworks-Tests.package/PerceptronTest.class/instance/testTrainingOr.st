@@ -3,9 +3,7 @@ testTrainingOr
 
 	| p |
 	
-	p := self newNeuron.
-	p weights: #(-1 -1).
-	p bias: 2.
+	p := Neuron weights: #(-1 -1) bias: 2 learningRate: 0.1 activationFunction: StepAF new.
 	
 	40 timesRepeat: [ 
 		p train: #(0 0) desiredOutput: 0.

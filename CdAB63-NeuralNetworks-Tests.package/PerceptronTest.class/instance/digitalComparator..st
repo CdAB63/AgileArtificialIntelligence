@@ -7,9 +7,9 @@ digitalComparator: inputs
 	a := inputs first.
 	b := inputs second.
 	
-	and := self newNeuron weights: #(1 1); bias: -1.5.
-	not := self newNeuron weights: #(-1); bias: 0.5.
-	nor := self newNeuron weights: #(-1 -1); bias: 0.5.
+	and := Neuron weights: #(1 1) bias: -1.5 learningRate: 0.1 activationFunction: StepAF new.
+	not := Neuron weights: #(-1) bias: 0.5 learningRate: 0.1 activationFunction: StepAF new.
+	nor := Neuron weights: #(-1 -1) bias: 0.5 learningRate: 0.1 activationFunction: StepAF new.
 	notA := not feed: { a }.
 	notB := not feed: { b }.
 	

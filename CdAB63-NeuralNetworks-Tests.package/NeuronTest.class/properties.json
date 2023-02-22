@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "CdAB63 2/22/2023 10:45",
+	"super" : "TestCase",
+	"category" : "CdAB63-NeuralNetworks-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NeuronTest",
+	"type" : "normal"
+}

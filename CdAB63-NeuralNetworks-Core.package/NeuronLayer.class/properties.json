@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "CdAB63 2/22/2023 11:13",
+	"super" : "Object",
+	"category" : "CdAB63-NeuralNetworks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"previousLayer",
+		"nextLayer",
+		"neurons"
+	],
+	"name" : "NeuronLayer",
+	"type" : "normal"
+}

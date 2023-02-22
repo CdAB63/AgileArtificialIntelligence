@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CdAB63-NeuralNetworks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layers",
+		"errors",
+		"precisions"
+	],
+	"name" : "NNetwork",
+	"type" : "normal"
+}

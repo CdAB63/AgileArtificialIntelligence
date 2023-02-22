@@ -1,0 +1,1 @@
+This class represents a normal (non convolutional) neuron layer

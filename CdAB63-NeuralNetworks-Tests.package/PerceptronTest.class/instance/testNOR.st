@@ -3,9 +3,7 @@ testNOR
 
 	| p |
 	
-	p := self newNeuron.
-	p weights: #(-1 -1).
-	p bias: 0.5.
+	p := Neuron weights: #(-1 -1) bias: 0.5 learningRate: 0.1 activationFunction: StepAF new.
 	
 	self assert: (p feed: #(0 0)) equals: 1.
 	self assert: (p feed: #(0 1)) equals: 0.
