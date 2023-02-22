@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "CdAB63 2/21/2023 22:01",
+	"super" : "Object",
+	"category" : "CdAB63-NeuralNetworks-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"weights",
+		"bias"
+	],
+	"name" : "Neuron",
+	"type" : "normal"
+}
