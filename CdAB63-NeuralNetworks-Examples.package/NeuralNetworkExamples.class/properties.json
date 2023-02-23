@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "CdAB63 2/23/2023 12:03",
+	"super" : "Object",
+	"category" : "CdAB63-NeuralNetworks-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "NeuralNetworkExamples",
+	"type" : "normal"
+}
