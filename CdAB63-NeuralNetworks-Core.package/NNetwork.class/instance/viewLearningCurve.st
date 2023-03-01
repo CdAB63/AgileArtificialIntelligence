@@ -26,4 +26,5 @@ viewLearningCurve
 	b axisX noDecimal; title: 'Epoch'.
 	b axisY title: 'Error'.
 	b axisYRight title: 'Precision'; color: Color red.
+	b title: 'Learning rate ', self layers first neurons first learningRate asString.
 	b open

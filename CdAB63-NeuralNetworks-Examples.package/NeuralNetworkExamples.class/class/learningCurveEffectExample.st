@@ -26,5 +26,6 @@ learningCurveEffectExample
 			d points: learningCurveNeuron.
 			d y: #yourself.
 			g add: d  ].
+		g legend addText: 'Learning rate effect'.
 		g open
 			
