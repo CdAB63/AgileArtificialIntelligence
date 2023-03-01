@@ -1,14 +1,12 @@
 operations
-train: train nbEpochs: nbEpochs
+trainWithoutNormalization: train nbEpochs: nbEpochs
 
-	| sumError outputs expectedOutput epochPrecision t normalizedTrain |
+	| sumError outputs expectedOutput epochPrecision t |
 
-	normalizedTrain := Normalization normalizeData: train.
-		
 	1 to: nbEpochs do: [ :epoch |
 		sumError := 0.
 		epochPrecision := 0.
-		normalizedTrain do: [ :row |
+		train do: [ :row |
 			outputs := self feed: row allButLast.
 			expectedOutput := (1 to: self numberOfOutputs) collect: [ :notUsed | 0 ].
 			expectedOutput at: (row last) + 1 put: 1.
